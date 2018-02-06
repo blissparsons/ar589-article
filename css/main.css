@@ -45,9 +45,10 @@
 
 .item8 {
   grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 2/4;
 }
 
 .item9 {
   grid-column: 3/4;
+  grid-row: 3/4;
 }
