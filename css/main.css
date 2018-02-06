@@ -1,3 +1,22 @@
-/* ========================================
- * CSS written here will override Tachyons
- * ======================================== */
+.container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item1 {
+  grid-column: span 3;
+}
+
+.item2 {
+  grid-column: span 3;
+}
+
+.item3 {
+  grid-column: 1 / 2;
+}
+
+.item5 {
+  background: gold;
+  grid-column: 2/3;
+}
